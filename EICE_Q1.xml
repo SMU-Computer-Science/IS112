@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T01:47:52.352Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="GKzNfQlIMJpFTfoKmTc7" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-21T01:53:21.898Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="3rHMWRTKxoRrMFKtP3De" version="13.10.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1658" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1836" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,6 +43,15 @@
         <mxCell id="8u-XHy7HnlDoCg6lEDPM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-27" target="8u-XHy7HnlDoCg6lEDPM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8u-XHy7HnlDoCg6lEDPM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=1;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="310" />
+              <mxPoint x="540" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Congressperson" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="120" width="250" height="120" as="geometry" />
         </mxCell>
@@ -68,7 +77,7 @@
           <mxGeometry x="420" y="240" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8u-XHy7HnlDoCg6lEDPM-7" value="PoliticalParty" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="100" y="210" width="220" height="30" as="geometry" />
+          <mxGeometry x="100" y="210" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8u-XHy7HnlDoCg6lEDPM-11" value="States" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="120" width="250" height="90" as="geometry" />
@@ -113,6 +122,9 @@
         </mxCell>
         <mxCell id="8u-XHy7HnlDoCg6lEDPM-34" value="Votes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="200" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8u-XHy7HnlDoCg6lEDPM-36" value="Proposes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
